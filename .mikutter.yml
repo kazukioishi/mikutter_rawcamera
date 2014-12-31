@@ -1,0 +1,9 @@
+---
+slug: :mikutter_rawcamera
+depends:
+  mikutter: 3.0.0
+  plugin: []
+version: '0.01'
+author: kazuki_kaihatu
+name: RAW現像プラグイン
+description: RAW現像して投稿するプラグイン
