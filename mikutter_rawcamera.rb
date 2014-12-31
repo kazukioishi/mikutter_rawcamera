@@ -144,7 +144,7 @@ Plugin.create :mikutter_rawcamera do
           #ニコニコニコ～ｗ
           OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
           @clients[Service.primary.idname].update_with_media(message, File.new(tmpimagepath))
-          File.delete(tmpimage)
+          File.delete(tmpimagepath)
         }
         Plugin.create(:gtk).widgetof(opt.widget).widget_post.buffer.text = ''
       end

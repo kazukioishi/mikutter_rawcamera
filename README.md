@@ -20,3 +20,6 @@ Windowsでも動きますが(動作確認済)導入が大変なので、上手�
 
 # このプラグインの使い道
 現像して即アップできるので撮って出ししたい人にはおすすめです。
+
+# このプラグインで出力した画像の例
+![テスト画像](https://raw.githubusercontent.com/kazukioishi/mikutter_rawcamera/master/demo_compressed.jpg "レイヤーさん")
