@@ -2,13 +2,16 @@ mikutter_rawcamera
 ================
 
 # WHAT IS THIS??
-mikutter内でImageMagickを利用してRAW現像+JPEG変換+Twitter用に縮小できるプラグインです。  
+mikutter内でImageMagickを利用してRAW現像+簡易レタッチ+JPEG変換+Twitter用に縮小できるプラグインです。  
 現在ImageMagickで読めるRAWファイル(ニコン、キャノン、ソニー製などの眼レフのRAW)に対応しております。  
-作者はSONY製のNEX-5Nしか持っていないためARWでしか検証できておりません。
 
 # 今後の課題
 * ホワイトバランスが読めなかったりする(ImageMagick側の問題?)
-* 簡易レタッチ機能の実装
+* ファイル選択画面での画像プレビューの高速化(現状不安定なため無効化)
+
+# 動作確認済み環境
+OS: Windows 8.1 + Ruby(32bit)  
+カメラ: NEX-5N(記録方式はARW)
 
 # 依存gem
 * rmagick(インストール方法については公式Wiki参照)
