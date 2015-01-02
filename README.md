@@ -19,7 +19,9 @@ OS: Windows 8.1 + Ruby(32bit)
 
 # RMagickの導入
 ImageMagickのRubyバインディングであるRMagickのインストールにはImageMagickのライブラリが必要になります。  
-Windowsでも動きますが(動作確認済)導入が大変なので、上手くいかないなら素直にLightroom使いましょう。
+Windowsでも動きますが(動作確認済)導入が大変なので、上手くいかないなら素直にLightroom使いましょう。  
+よかったら[Wiki](https://github.com/kazukioishi/mikutter_rawcamera/wiki/ImageMagick%E3%81%AE%E6%BA%96%E5%82%99)も読んでみてください。  
+
 
 # このプラグインの使い道
 現像して即アップできるので撮って出ししたい人にはおすすめです。
